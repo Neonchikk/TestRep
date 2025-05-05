@@ -1,6 +1,14 @@
+# Gradle
+.gradle/
+build/
+out/
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+
+# Ваши специфичные исключения
 dynamic-resources/ai-models/speech-recognition-model/*
-gradle/*
-build
-gradlew
-gradlew.bat
 db_examples/*.db
+
+# Системные файлы
+.DS_Store
+Thumbs.db
